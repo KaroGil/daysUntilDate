@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [
-      { "src": "days-until-date/*", "use": "@vercel/node" }
+      { "src": "days-until-date/build/*", "use": "@vercel/node" }
     ],
     "routes": [
       { "handle": "filesystem" },
