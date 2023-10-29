@@ -23,7 +23,7 @@ h2{
 }
 
 /* Styling for the days remaining display */
-h1::after {
+#remaining::after {
   content: " days";
   font-size: 18px;
   color: #eeecec;
