@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h1>Days Until</h1>
       <h2>{movie}</h2>
-       <DaysUntil date="2023-11-17" />
+       <DaysUntil date="2023-11-16" />
     </div>
   );
 }
