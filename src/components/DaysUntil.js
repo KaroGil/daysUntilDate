@@ -8,7 +8,7 @@ export const DaysUntil = (date) => {
     const timeDifference = targetDate - currentDate;
     const daysRemaining = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
 
-    if(daysRemaining ==0){daysRemaining = "today";}
+    /*if(daysRemaining ==0){daysRemaining = "today";}*/
   return (
     <div className="App">
       <h1 id='remaining'>{daysRemaining}</h1>
