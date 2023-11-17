@@ -14,7 +14,7 @@ export const DaysUntil = (date) => {
     <div className="App">
       {daysRemaining < 0 ? <h1>Days Since</h1> : <h1>Days Until</h1>}
       <h2>{movie}</h2>
-      { daysRemaining === 0 ? <h1 id='remaining'>Today</h1> : <h1 id='remaining'>{daysRemaining}</h1>}
+      { daysRemaining === 0 ? <h1 id='remaining'>Today</h1> : <h1 id='remaining'>{Math.abs(daysRemaining)}</h1>}
     </div>
   );
 }
