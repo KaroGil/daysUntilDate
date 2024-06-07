@@ -7,6 +7,7 @@ body{
 }
 .App {
   text-align: center;
+  align-content: center;
   font-family: Arial, sans-serif;
   padding: 20px;
 }
@@ -22,11 +23,28 @@ h2{
   color: #f8bbbb;
 }
 
+.day {
+  color: #f4f4f4;
+  font-size:large;
+}
+
 /* Styling for the days remaining display */
 #remaining::after {
-  content: " days";
   font-size: 18px;
   color: #eeecec;
   display: block;
   margin-top: 10px;
+}
+
+
+/* Styling for toggle button */
+.toggle {
+  background-color: #f8bbbb;
+  color: #f4f4f4;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
 }
