@@ -1,5 +1,5 @@
 // Scriptable Widget — Days Until Hunger Games
-const API_URL = "https://days-until-date.vercel.app/events?next=true";
+const API_URL = "https://days-until-date.vercel.app/api/events";
 
 async function fetchData() {
   const req = new Request(API_URL);
